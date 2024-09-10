@@ -1,0 +1,4 @@
+Rabka,STONE,42.0
+Nowy Targ,BRICKS,50.0
+Mszana Dolna,WOOD,50.0
+Zakopane,CONCRETE,50.0

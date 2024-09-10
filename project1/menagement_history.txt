@@ -1,0 +1,7 @@
+1.0m2,Rabka,STONE,Rdzawka,Dominik,Schinohl,72999186452,2023-11-08
+1.0m2,Rabka,STONE,Rdzawka,Andrzej,Rybka,66576389972,2023-11-08
+1.0m2,Rabka,STONE,Rdzawka,Dominik,Schinohl,72999186452,2023-11-11
+1.0m2,Rabka,STONE,Rdzawka,Andrzej,Rybka,66576389972,2023-11-11
+1.0m2,Rabka,STONE,Rdzawka,Dominik,Schinohl,72999186452,2024-06-06
+1.0m2,Rabka,STONE,Rdzawka,Andrzej,Rybka,66576389972,2024-06-06
+1.0m2,Rabka,STONE,Rdzawka,Andrzej,Rybka,66576389972,2024-09-10
