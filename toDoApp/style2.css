@@ -1,0 +1,39 @@
+
+.details{
+    width: 60%;
+    height: 500px;
+    background: rgba(181, 181, 181, 0.747);
+    border: 1px solid black;
+}
+.detailsInfo{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+.detailsSettings{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.finished,.unfinished{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-weight: normal;
+    margin: 10px;
+}
+input[type="date"]{
+    margin: 10px;
+}
+input[type="submit"]{
+    background: rgb(43, 43, 43);
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.container{
+    background: none;
+}

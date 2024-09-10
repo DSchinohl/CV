@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flexDirColumn{
+    flex-direction: column;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.topBar{
+    width: 90%;
+    height: 3px;
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+}
+.container{
+    width: 80%;
+    height: 700px;
+    background: rgba(181, 181, 181, 0.454);
+}
+.topContainerBar{
+    width: 100%;
+    height: 40px;
+    background: rgb(81, 81, 81);
+    justify-content: space-around;
+    margin: 0px -25px 0px -25px;
+    padding: 0px 25px 0px 25px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+a{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+    text-decoration: none;
+    color: color;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.botContainerBar{
+    width: 100%;
+    height: 660px;
+    align-items: flex-start;
+}
+section{
+    width: 100%;
+    text-align: center;
+}
+.label{
+    width: 100%;
+    height: 82.5px;
+}
+section a{
+    font-weight: normal;
+    background: none;
+    border: none;
+    color:  white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section a div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: smaller;
+}
+section div{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(43, 43, 43, 0.79);
+    border: 1px solid black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    text-wrap: wrap;
+    height: 50px;
+}
+input[type="submit"]{
+    background-color: rgba(43, 43, 43, 0.79);
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+.topLabel{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.projectNameLabel{
+    width: 80%;
+    height: 150px;
+    background-color: black;
+    background: rgba(181, 181, 181, 0.454);
+    border-radius: 40px 40px 0px 0px;
+    justify-content: space-around;
+}
+.h3{
+    text-align: center;
+    text-wrap: balance;
+}
+@media only screen and (max-width: 400px) {
+    .topContainerBar{
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        border: none;
+    }
+    .container{
+        width: 100%;
+    }
+    *{
+        font-size: 10px;
+    }
+    span{
+        
+    max-width: 50px;
+    }
+    .projectNameLabel{
+        width: 100%;
+    }
+}
+
+/*
+select p1.mainProjectName from p1 join users on users.userID = p1.userID where p1.userID = users.userID;
+
+SELECT 
+    users.userNickName, 
+    projects.name 
+FROM 
+    p1
+JOIN users ON p1.userID = users.userID
+JOIN projects ON p1.projectID = projects.projectID
+WHERE
+	users.userID = 1
+  
+    
+
+    
+    <?php
+        
+        $Query =
+        '
+        SELECT title FROM titles WHERE locationID = 
+        '.$i;
+        $result = $connection->query($Query);
+
+        if($result->num_rows > 0){
+            $row = $result->fetch_assoc();
+        
+        ?>
+        <span>
+            <?php echo $row['title']; ?>
+        </span>
+        
+        <?php
+        }else{
+        ?>
+        
+    <a href="addProjectName.php?userID=1&titleName=<?php echo $i; ?>">+
+    
+            <span>Add Title</span>
+
+            
+        ?>
+    </a>
+    
+    <?php
+        }  
+    ?>
+*/
