@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexDir{
+    flex-direction: column;
+}
+#piecesBar{
+    width: 1000px;
+    padding: 40px;
+    background: #3c3c3c;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+#container{
+    margin: 20px;
+}
+.container{
+    background-color: red;
+}
+button{
+    cursor: pointer;
+    font-size: 40px;
+    margin: 0px;
+    padding: 20px;width:80px;height:80px;border:4px solid black;
+    text-align: center;
+}
+button:hover{
+    border-color: rgb(238, 174, 144);
+}
+#results{
+	text-align: center;
+	padding: 50px 25px;
+}
+#colorHolder{
+	text-align: center;
+}
