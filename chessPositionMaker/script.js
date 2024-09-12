@@ -4,7 +4,7 @@ var row = "[Event \"?\"]\n[Site \"chessPositionMaker\"]\n[Date \"????.??.??\"]\n
 var tempRow = "\n\n";
 const zArray = ["♟","♞","♝","♜","♛","♚","♙","♘","♗","♖","♕","♔"];
 const yArray = ["a","b","c","d","e","f","g","h"];
-
+var isWhite = true;
 function onLoad(){
     let x = 0;
     let colorIndicator = 1;
@@ -102,7 +102,22 @@ function onPrint(){
         }
     }
     row = row.substring(0, row.length - 1);
-    row += " w - - 0 1\"]";
-    console.log(row,tempRow)
+	if(isWhite){
+		row += " w - - 1 0\"]";
+	}else{
+		row += " w - - 0 1\"]";
+		
+	}
+	document.getElementById("results").innerHTML = row+"<br><br>"+tempRow;
 }
-    
+
+
+function colorPrint(){
+	if(isWhite == true){
+	document.getElementById("color").innerHTML = "B";
+	isWhite = false;
+	}else{
+		document.getElementById("color").innerHTML = "W";
+		isWhite = true;
+	}
+}

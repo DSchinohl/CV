@@ -9,6 +9,10 @@
 </head>
 <body class="displayFlex flexDir" style="justify-content: flex-start;" onload="onLoad()">
 
+	<div id="colorHolder"> which side is starting<br>
+		<button id="color" onclick="colorPrint()">W</button>
+	</div>
+
     <div id="container" class="displayFlex flexDir" >
     </div>
 
@@ -16,5 +20,9 @@
     </div>
 
     <button style="width: 200px; font-size: 20px; border-radius: 20px;" onclick="onPrint()">print</button>
+	
+	<div id="results">
+		Here you are going to see your position in PNG format!
+	</div>
 </body>
 </html>

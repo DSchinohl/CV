@@ -39,3 +39,10 @@ button{
 button:hover{
     border-color: rgb(238, 174, 144);
 }
+#results{
+	text-align: center;
+	padding: 50px 25px;
+}
+#colorHolder{
+	text-align: center;
+}
