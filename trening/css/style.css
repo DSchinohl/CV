@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+body,html{
+    box-sizing: border-box;
+}
+.flexBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frontImage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/FD47A25A-5262-4CC9-9055-842BF161B255.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.contentBox{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.label{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.5);
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+}
+.label a{
+    visibility: hidden;
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+    text-shadow: 4px 4px 50px rgba(255, 255, 255, 1);
+    font-size: small;
+    position: absolute;
+    margin-top: 300px;
+}
+.label p{
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 120px;
+    font-size: small;
+    visibility: hidden;
+}
+.label .layout{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("images/FD47A25A-5262-4CC9-9055-842BF161B255.JPG");
+    z-index: -1;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s all ease-in-out;
+}
+.label h1{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-style: italic;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 50px rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.flexDirCol{
+    flex-direction: column;
+}
+.frontImage button{
+    margin: 15px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: rgba(255, 93, 93, 0.95);
+    color: white;
+    font-size: small;
+    text-transform: uppercase;
+    transition: .3s all;
+}
+.label:focus{
+    background-color: #12121293;
+}
+.label:focus h1{
+    color: white;
+}
+.label:focus a{
+    display: flex;
+    visibility: visible;
+}
+.label:focus .layout{
+    visibility: visible;
+}
+.label:focus p{
+    visibility: visible;
+}
+a:hover{
+    box-shadow: 0px 0px 15px -2px white;
+}
+.headerLine{
+    width: 100%;
+    height: 80px;
+}
+.frontImage button:hover{
+    background-color: white;
+    color: red;
+    box-shadow: 0px 0px 50px -10px rgba(255, 0, 0, 0.85);
+}
+.verticalHeader{
+    width: 100%;
+    min-height: 400px;
+    background-color: #121212;
+    color: white;
+    flex-wrap: wrap-reverse;
+}
+.textLabel{
+    width: 300px;
+    min-height: 300px;
+    text-align: justify;
+    margin: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.verticalImage{
+    width: 300px;
+    height: 300px;
+    background-color:  rgba(211, 211, 211, 0.1);
+    margin: 10px;
+    background-image: url("images/Bez\ nazwy-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.pageName{
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    font-size: small;
+    color: white;
+}
+.pageMenu{
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    font-size: small;
+}
+.placeHolder{
+    width: 100%;
+}
+.after::after{
+    content: ">>";
+    color: white;
+    font-size: small;
+    font-weight: 800;
+}
+.aboutMe{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:  rgba(211, 211, 211, 0.1);
+    margin-bottom: 15px;
+}
+.header{
+    width: 100%;
+    min-height: 80px;
+    background-color: #121212;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+}
